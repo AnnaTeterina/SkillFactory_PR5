@@ -1,0 +1,19 @@
+
+//? <ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>
+
+//* переиспользуемые стили
+@import "base/module.scss";
+@import "common/module.scss";
+
+//* базовая расстановка контента на странице
+@import "layout/module.scss";
+
+//* подключаю стили для компонентов
+@import "../components/common/dropdown/scss/module.scss";
+@import "../components/common/board/scss/module.scss";
+@import "../components/common/submenu/scss/module.scss";
+@import "../components/common/inp/scss/module.scss";
+@import "../components/common/issue/scss/module.scss";
+
+
+//? </ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>
